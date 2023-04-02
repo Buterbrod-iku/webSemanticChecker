@@ -1,0 +1,63 @@
+.glav{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: stretch;
+    box-sizing: border-box;
+    margin: 50px 0 0 0;
+    box-shadow: 0 0 50px 6px #bbbbbb;
+}
+.img_1{
+    background-image: url("../img/semantic-logo.png");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 25vw;
+}
+.img_2{
+    background-image: url("../img/ScreenReader.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 25vw;
+}
+.block_text{
+    background: white;
+    height: 50vh;
+    width: 25vw;
+    text-align: justify;
+    font-size: 19px;
+    font-family: 'calibri';
+    padding: 20px;
+    box-sizing: border-box;
+}
+h5{
+    margin: 5px;
+    font-size: 22px;
+    text-align: center;
+}
+@media screen and (max-width: 800px) {
+    .glav{
+        flex-direction: column;
+        box-shadow: none;
+    }
+    .img_1{
+        width: 100vw;
+    }
+    .img_2{
+        width: 100vw;
+    }
+    .block_text{
+        width: 100vw;
+        font-size: 23px;
+    }
+    h5{
+        font-size: 26px;
+    }
+    .block_text{
+        height: auto;
+        padding: 25px;
+    }
+}

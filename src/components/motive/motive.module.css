@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap');
+article{
+    width: 100vw;
+    height: 70vh;
+    box-sizing: border-box;
+}
+.bg{
+    width: 100vw;
+    height: 70vh;
+    background-image: url("../img/3.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: 1;
+    box-sizing: border-box;
+}
+.ton{
+    width: 100vw;
+    height: 70vh;
+    position: absolute;
+    z-index: 2;
+    background: black;
+    opacity: 0.6;
+    box-sizing: border-box;
+}
+.center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.cov{
+    font-size: 140px;
+    height: 170px;
+    margin: 20px 0 0 0;
+    position: relative;
+    z-index: 3;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Catamaran';
+    user-select: none;
+}
+.cit{
+    font-size: 60px;
+    margin: 0;
+    position: relative;
+    z-index: 3;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'calibri';
+    text-align: center;
+}
+.avtor{
+    font-size: 30px;
+    margin: 10px 0 0 0;
+    position: relative;
+    z-index: 3;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Catamaran';
+}
+@media screen and (max-width: 800px) {
+    .cit{
+        font-size: 11vw;
+    }
+    .avtor{
+        font-size: 26px;
+    }
+}

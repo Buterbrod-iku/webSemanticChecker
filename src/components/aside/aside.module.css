@@ -1,0 +1,36 @@
+aside{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pos{
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    font-size: 23px;
+    margin: 10px;
+    text-align: center;
+}
+.text{
+    text-align: center;
+    font-size: 20px;
+}
+@media screen and (max-width: 800px) {
+    aside{
+        margin: 80px 0;
+    }
+    .pos{
+        width: 80vw;
+    }
+    .text{
+        text-align: justify;
+        font-size: 22px;
+    }
+}

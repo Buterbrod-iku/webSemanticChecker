@@ -1,0 +1,125 @@
+.App {
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 80vw;
+    background: white;
+    margin-left: 0vw;
+    padding: 15px 15px 40px 15px;
+    box-sizing: border-box;
+}
+.alert_type_error{
+    width: 100%;
+    height: auto;
+    background-color: #d23838;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'corbel';
+    padding: 30px 0;
+}
+.block{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin: 20px 0 20px 0;
+    font-size: 22px;
+    padding: 15px;
+    font-family: 'calibri';
+    border-left: 5px double red;
+}
+.block_wor{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin: 20px 0 20px 0;
+    font-size: 22px;
+    padding: 15px;
+    font-family: 'calibri';
+    border-left: 5px double yellow;    
+}
+.nonv{
+    width: 80vw;
+    height: 50px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 33px;
+    padding: 15px 0 40px 0;
+    font-family: 'calibri';
+    text-shadow: 1px 1px 2px #b3b3b3;
+}
+.li{
+    margin-left: 10px;
+    font-size: 22px;
+}
+.zag{
+    font-weight: normal;
+    padding-left: 20px;
+    font-size: 26px;
+}
+.li_alert{
+    color:red;
+    margin-left: 10px;
+    font-size: 22px;
+}
+.zag_alert{
+    color:red;
+    font-weight: normal;
+    padding-left: 20px;
+    font-size: 26px;
+}
+.div_zag{
+    padding-left: 15px;
+}
+.win{
+    width: 100%;
+    height: auto;
+    background-color: #13c8d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'corbel';
+    padding: 30px 0;
+}
+.vor{
+    color: red;
+    padding: 15px;
+    margin: 20px 0 0 -30px;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: 'calibri';
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    width: 80vw;
+    height: auto;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 22px;
+    padding: 20px;
+    font-family: 'calibri';
+    border-left: 3px solid #343434;
+}
+h5{
+    padding: 5px;
+}
+.div_alert_zag{
+    background: red;
+}
